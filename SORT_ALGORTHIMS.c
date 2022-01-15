@@ -1,5 +1,4 @@
-// BUBBLE_SORT 
-//---------------------------------------------------------------//
+
 
 void BUBBLE_SORT (int A[],int n){
     int temp ;
@@ -18,8 +17,7 @@ void BUBBLE_SORT (int A[],int n){
     }
 }
 
-// SELECTION_SORT  
-//--------------------------------------------------------------//
+
 
 void SELECTION_SORT (int A[] , int n){
     int i , j , Min , temp ;
@@ -37,8 +35,7 @@ void SELECTION_SORT (int A[] , int n){
 
 
 
-// INSERTION_SORT	
-//--------------------------------------------------------------//
+
 void INSERTION_SORT (int A[] , int n){
     int i , j , v ;
     for (i = 1 ; i < n ; i++){
@@ -56,8 +53,7 @@ void INSERTION_SORT (int A[] , int n){
 
 
 
-// SHELL_SORT	
-//--------------------------------------------------------------// 
+
 
 void shell_sort ( int arr[],int n ){
  int gap , i , j , temp ;
@@ -77,8 +73,7 @@ void shell_sort ( int arr[],int n ){
 
 
 
-// Merge_SORT	
-//--------------------------------------------------------------// 
+
 
 
 void Merge (int A[] , int left , int right,int mid){
@@ -125,8 +120,6 @@ void Merge (int A[] , int left , int right,int mid){
  }
 
 
-// Quick_SORT	
-//--------------------------------------------------------------// 
 
 
 
@@ -172,8 +165,6 @@ if (high>low){
 
 
 
-// Counting_SORT	
-//--------------------------------------------------------------// 
  
 
 void Counting_Sort (int arr[] , int n , int range ){
@@ -203,8 +194,7 @@ for (i =0 ; i < n ; i++ )
 } 
 
 
-// Bucket_SORT	
-//--------------------------------------------------------------// 
+
 
 void Bucket_Sort (float arr[] , int n){
 
